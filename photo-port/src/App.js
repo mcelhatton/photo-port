@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
-import Pet from './components/Pet';
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
+
   return (
-    <Pet />
+    <div>
+      <Nav />
+      <main>
+          <About />        
+      </main>
+    </div>
   );
 }
 
